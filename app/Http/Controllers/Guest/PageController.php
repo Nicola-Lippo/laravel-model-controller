@@ -9,6 +9,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        return 'prova collegamento controller';
+
+        return view('welcome');
     }
 }
